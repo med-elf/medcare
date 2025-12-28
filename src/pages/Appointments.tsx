@@ -99,7 +99,7 @@ export default function Appointments() {
 
   return (
     <div className="min-h-screen">
-      <Header title="Appointments" subtitle="Manage your clinic's schedule" />
+      <Header title="Appointments" subtitle="Manage your clinic's schedules" />
 
       <div className="p-6">
         <div className="flex gap-6">
@@ -166,7 +166,7 @@ export default function Appointments() {
                             className={cn(
                               "text-lg font-semibold mt-1",
                               isToday(date) &&
-                                "w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center mx-auto"
+                              "w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center mx-auto"
                             )}
                           >
                             {date.getDate()}
